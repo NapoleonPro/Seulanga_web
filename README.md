@@ -1,6 +1,6 @@
 # web_seulanga
 
-A new Flutter project.
+Tampilan web page seulangan untuk mobile dan juga desktop
 
 ## Getting Started
 
