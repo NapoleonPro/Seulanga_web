@@ -39,9 +39,7 @@ class MyHomePage extends StatelessWidget {
           builder: (context, constraints) {
             return SingleChildScrollView(
               child: ConstrainedBox(
-                constraints: BoxConstraints(
-                  minHeight: constraints.maxHeight,
-                ),
+                constraints: BoxConstraints(minHeight: constraints.maxHeight),
                 child: Padding(
                   padding:
                       const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
@@ -53,16 +51,10 @@ class MyHomePage extends StatelessWidget {
                           height:
                               500), // Jarak antara konten utama dan konten tambahan
                       Center(
-                        child: Container(
-                          width: constraints
-                              .maxWidth, // Menggunakan lebar maksimum dari LayoutBuilder
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment
-                                .center, // Menengahkan konten secara horizontal
-                            children: [
-                              LandingPage2(), // Konten tambahan dari LandingPage2
-                            ],
-                          ),
+                        child: Column(
+                          children: [
+                            LandingPage2(), // Konten tambahan dari LandingPage2
+                          ],
                         ),
                       ),
                     ],
