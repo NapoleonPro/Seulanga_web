@@ -1,6 +1,6 @@
 # web_seulanga
 
-Tampilan web page seulanga untuk mobile dan juga desktop
+Seulanga Home Page for Desktop and Mobile Screen
 
 ## Getting Started
 
