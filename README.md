@@ -1,6 +1,6 @@
 # web_seulanga
 
-Seulanga Home Page for Desktop and Mobile Screen
+Seulanga Home Page for Desktop and Mobile Screen.
 
 ## Getting Started
 
